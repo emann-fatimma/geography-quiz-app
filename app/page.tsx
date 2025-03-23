@@ -253,9 +253,7 @@ export default function Home() {
       <StartPage
         title="Guess the Country by its Neighbors Quiz"
         subtitle="Test your geography knowledge with this challenging quiz!"
-        //imageUrl="/images/world-map-network.jpg"
-       // startQuizLink="#"
-        onStartQuiz={startQuiz}
+        onStartQuiz={startQuiz} // ✅ Removed unused startQuizLink
       />
     );
   }

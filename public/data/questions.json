@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "question": "What country do Italy, Spain, and Belgium all touch?",
+        "options": [
+            {
+                "text": "France",
+                "isCorrect": true
+            },
+            {
+                "text": "Germany",
+                "isCorrect": false
+            },
+            {
+                "text": "Switzerland",
+                "isCorrect": false
+            },
+            {
+                "text": "Netherlands",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "question": "What country borders Portugal?",
+        "options": [
+            {
+                "text": "Belgium",
+                "isCorrect": false
+            },
+            {
+                "text": "Spain",
+                "isCorrect": true
+            },
+            {
+                "text": "Italy",
+                "isCorrect": false
+            },
+            {
+                "text": "Morocco",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "question": "What country borders both Slovenia and France?",
+        "options": [
+            {
+                "text": "Italy",
+                "isCorrect": true
+            },
+            {
+                "text": "Czech Republic",
+                "isCorrect": false
+            },
+            {
+                "text": "Luxembourg",
+                "isCorrect": false
+            },
+            {
+                "text": "Netherlands",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "question": "What country has land borders with Finland and North Korea?",
+        "options": [
+            {
+                "text": "Kazakhstan",
+                "isCorrect": false
+            },
+            {
+                "text": "Sweden",
+                "isCorrect": false
+            },
+            {
+                "text": "Russia",
+                "isCorrect": true
+            },
+            {
+                "text": "Mongolia",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "question": "What country touches both Nepal and Mongolia?",
+        "options": [
+            {
+                "text": "Laos",
+                "isCorrect": false
+            },
+            {
+                "text": "China",
+                "isCorrect": true
+            },
+            {
+                "text": "North Korea",
+                "isCorrect": false
+            },
+            {
+                "text": "Japan",
+                "isCorrect": false
+            }
+        ]
+    }
+]

@@ -100,7 +100,7 @@ export default function Home() {
     <main className="quiz-main">
       <div className="quiz-container">
         <div className="quiz-header">
-          <h1 className="quiz-title">Guess the Country by Its Neighbors Quiz</h1>
+          <h1 className="quiz-title">Guess the Country by Its Neighbors</h1>
           <div className="quiz-stats">
             <div className="timer-container">
               <div className="timer-circle">

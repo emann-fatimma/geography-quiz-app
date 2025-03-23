@@ -129,6 +129,7 @@ body {
   font-weight: 900;
   margin-bottom: 1.5rem;
   color: black;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .quiz-card-options {
@@ -143,7 +144,7 @@ body {
   text-align: left;
   transition: all 0.2s ease-in-out;
   color: black;
-  outline: 1px solid #3b82f6; /* blue-500 */
+  outline: 1px solid #3b82f6; 
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -241,7 +242,8 @@ body {
   padding: 1.5rem;
   border-radius: 0.5rem;
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  background-image: url('https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/world-map-watercolor-michael-tompsett.jpg');
+  /*background-image: url('https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/world-map-watercolor-michael-tompsett.jpg');*/
+  background-image: url('/download.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -305,7 +307,7 @@ body {
 
 /* Loading screen styles */
 .loading-container {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -326,6 +328,7 @@ body {
   justify-content: center;
   padding: 0;
   overflow: hidden;
+  
 }
 
 .quiz-container {
@@ -336,6 +339,7 @@ body {
   overflow: hidden;
   padding: 0;
   margin: 0;
+  border: #0a0a0a;
 }
 
 .quiz-header {
@@ -344,15 +348,18 @@ body {
   justify-content: space-between;
   padding: 1rem;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  background-color: white;
-  padding: 0;
+  background-color: rgb(134, 200, 238);
+  padding: 7;
   margin: 0;
+ 
+
 }
 
 .quiz-title {
-  font-size: 1.25rem;
-  font-weight: 700;
+  font-size: 1.7rem;
+  font-weight: 900;
   color: black;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .quiz-stats {
@@ -412,7 +419,7 @@ body {
   padding: 0.5rem 1rem;
 }
 
-/* Score Page Styles */
+/* Score Page Styles
 .score-page-container {
   display: flex;
   flex-direction: column;
@@ -427,7 +434,7 @@ body {
 .map-background {
   position: relative;
   width: 100%;
-  max-width: 64rem; /* 5xl */
+  max-width: 64rem; 
   min-height: 500px;
   padding: 1.5rem;
   border-radius: 0.5rem;
@@ -452,7 +459,7 @@ body {
   text-align: center;
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
   width: 100%;
-  max-width: 28rem; /* md */
+  max-width: 28rem; 
 }
 
 .result-title {
@@ -474,12 +481,12 @@ body {
 
 .score-message {
   font-size: 1.125rem;
-  color: #4b5563; /* gray-700 */
+  color: #4b5563; 
   margin-bottom: 1.5rem;
 }
 
 .retry-button {
-  background-color: #3b82f6; /* blue-500 */
+  background-color: #3b82f6; 
   color: white;
   padding: 0.5rem 1.5rem;
   border-radius: 0.375rem;
@@ -488,5 +495,5 @@ body {
 }
 
 .retry-button:hover {
-  background-color: #2563eb; /* blue-600 */
-}
+  background-color: #2563eb; 
+} */

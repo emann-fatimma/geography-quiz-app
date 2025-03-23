@@ -21,7 +21,7 @@ export default function Home() {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [score, setScore] = useState(0);
   const [loading, setLoading] = useState(true);
-  const [timer, setTimer] = useState(23);
+  const [timer, setTimer] = useState(30);
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
   const [quizCompleted, setQuizCompleted] = useState(false);
 
@@ -65,7 +65,7 @@ export default function Home() {
     if (currentQuestionIndex < questions.length - 1) {
       setCurrentQuestionIndex(prevIndex => prevIndex + 1);
       setSelectedAnswer(null);
-      setTimer(23);
+      setTimer(30);
     } else {
       setQuizCompleted(true);
     }
@@ -98,7 +98,7 @@ export default function Home() {
 
   return (
     <main className="quiz-main">
-      <div className="quiz-container">
+      <div className="quiz-container shadow-md overflow-hidden bg-gray">
         <div className="quiz-header">
           <h1 className="quiz-title">Guess the Country by Its Neighbors</h1>
           <div className="quiz-stats">
